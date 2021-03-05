@@ -10,7 +10,7 @@ public class StringDemo {
         System.out.println("demo.contains(\"Frei\") = " + demo.contains("Hello"));
         System.out.println("demo.toLowerCase() = " + demo.toLowerCase());
         System.out.println("demo.toLowerCase() = " + demo.toUpperCase());
-        //System.out.println("containsIgnoreCase(demo,  \"frei\") = " + containsIgnoreCase(demo, search:"frei"));
+        System.out.println("containsIgnoreCase(demo,  \"frei\") = " + containsIgnoreCase(demo, "frei"));
 
         String demo2 = "Heute ist Freitag.";
         if (demo.equals(demo2)) {
